@@ -1,0 +1,199 @@
+.bg-image{
+    height: 450px;
+    width: 800px;
+    background-image:url(../img/qi-bin-IIzny_Qgw-g-unsplash.jpg);
+    background-size: cover;
+    border-bottom:solid 2px #272838;
+    cursor: pointer;
+
+}
+
+/* BENTOの説明 */
+.content {
+    position:relative;
+    margin:30px auto 3px auto;
+    width:250px;
+    height:250px;
+    overflow:hidden;   
+}
+
+.inner{    
+    text-align: center;
+    color:#272838;
+    margin-top: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+#mean{
+    position: absolute;
+      top:80px;
+      left:20px;
+      right:20px;
+
+    margin: 0 auto;
+
+}
+
+
+.meaning{
+    color: mintcream;
+    text-align: center;
+}
+
+
+main{
+    background-color:peachpuff;
+    height: 800px;
+    width: 800px;
+    border-bottom:solid 2px #272838;
+    position: relative;
+}
+
+
+#box1{
+    width: 300px;
+    display:inline-block;
+
+}
+
+
+#record{
+    color:#272838 ;
+    text-align: center;
+    font-size:14px;
+}
+
+#btn1 {
+  width: 60px;
+  height: 60px;
+  background: #ffa500;
+  border-radius: 50% ;
+  cursor: pointer;
+  margin: 20px;
+  padding: 15px;
+  display:inline-block;
+  border:solid 2px #272838;
+  display: inline-block;
+}
+　
+
+#form{
+   display: inline-block;
+   width: 300px;
+   margin: 10px;
+
+}
+
+
+.upload-label {
+    display: inline-block;
+    width: 150px;
+    cursor: pointer; /* カーソルを指に */
+    padding-top: 13px;
+    padding-right: 40px;
+    line-height: 1; /* 行間 */
+    text-align: center;
+    background: #f18343; /* 背景色 */
+    color:#272838; /* 文字色 */
+    border-radius: 2.5em; /* 角の丸み */
+    transition: 0.2s; /* ホバーをなめらかに */
+    border:solid 2px #272838;
+   
+}
+
+  /* ホバー時 */
+  .upload-label:hover {
+    box-shadow: 0 8px 10px -2px rgba(0, 0, 0, 0.2); /* 影を表示 */
+
+  }
+  /* inputは隠す */
+  .upload-label input {
+    display: none;
+
+  }
+
+#preview img {
+    width: 200px;
+    margin: 10px;
+    border: solid 1px silver;
+    display: inline-block;
+  }
+
+
+#textarea {
+    resize: none;
+    width:200px;
+    height:50px;
+    margin: 0 auto;
+}
+
+#save{
+    background: #f18343; /* 背景色 */
+    color: #272838; /* 文字色 */
+    border-radius: 2.5em; /* 角の丸み */
+    transition: 0.2s; /* ホバーをなめらかに */
+    border:solid 2px #272838;
+    display: block;
+}
+
+            
+.log{
+    width:150px;
+    height:100px;
+    display: inline-block;
+    background-color: cadetblue;
+    border:solid 2px #272838;
+    padding: 5px;
+    word-break:break-word;
+}
+
+#chopstick{
+    position: absolute;
+       top: 500px;
+     right: 50px;
+     cursor: pointer;
+
+}
+
+#bentobox{
+    /* height:300px; */
+    position: relative;
+
+}
+
+#bento-bako{
+    cursor: pointer;
+   
+}
+
+#icon1{
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+
+#icon2{
+    position: absolute;
+    top: 75px;
+    left: 100px;
+} 
+
+#icon3{
+    position: absolute;
+    top: 65px;
+    left: 160px;
+}
+
+#icon4{
+    position: absolute;
+    top: 90px;
+    left: 300px;
+} 
+
+#icon5{
+    position: absolute;
+    top: 0;
+    left: 220px;
+}
